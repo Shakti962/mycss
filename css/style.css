@@ -4,27 +4,6 @@ body{
   font-family: 'Merriweather', serif;
   margin: 0;
 }
-.yellow{
-  position: relative;
-  right: 340px;
-  height: 150px;
-  width: 350px;
-  background-color: #fee600;
-}
-.blue{
-  position: relative;
-  left: 665px;
-  height: 130px;
-  width: 350px;
-  background-color: #00ccff;
-}
-.pink{
-  position: relative;
-  right: 340px;
-  height: 130px;
-  width: 350px;
-  background-color: #4e0138;
-}
 
 .container1{
   margin-top: 100px;
@@ -34,27 +13,28 @@ body{
 }
 .container5{
   background-color: #3ec1d3;
+  width: 100%;
   padding: 20px 0;
 }
 
-.skills1{
+.hobby1{
   margin: 0 auto 50px;
   text-align: left;
   height: 200px;
-  width: 50%;
+  width: 100%;
 }
-.skills2{
-  margin: 0 auto 50px;
-  text-align: left;
+.hobby2{
+  margin: 50px auto;
+  text-align: right;
   height: 200px;
-  width: 50%;
+  width: 100%;
 }
 
-.skills{
+.skills1{
   margin: 50px auto 80px;
   text-align: left;
   height: 200px;
-  width: 50%;
+  width: 100%;
 }
 
 h1{
@@ -94,37 +74,26 @@ hr{
 }
 
 .img1{
-  position: absolute;
   width: 150px;
+  float: left;
 }
 .img2{
-  position: absolute;
-  margin-left: 517px;
   height: 130px;
   width: 150px;
+  float: right;
 }
 .img3{
-  position: absolute;
-  margin-top: 0;
   height: 130px;
+  float: left;
 }
 .text1{
-  position: relative;
-  bottom: 170px;
   margin-left: 160px;
 }
 .text2{
-  position: relative;
-  bottom: 150px;
-  right: 165px;
-  margin-left: 250px;
-  text-align: right;
+  margin-right: 160px;
 }
 .text3{
-  position: relative;
-  bottom: 150px;
-  margin-left: 183px;
-  width: 38%;
+  margin-left: 180px;
 }
 a{
   text-decoration: none;
@@ -137,7 +106,7 @@ a{
 
 .top-c{
   position: absolute;
-  right: 300px;
+  right: 200px;
 }
 
 .bottom-c{
